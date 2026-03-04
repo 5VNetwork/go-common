@@ -4,7 +4,7 @@ import "math/rand"
 
 // RandomString generates a random word of specified length
 func RandomString(length int) string {
-	const letters = "abcdefghijklmnopqrstuvwxyz"
+	const letters = "abcdefghijklmnopqrstuvwxyz0123456789"
 	result := make([]byte, length)
 
 	for i := 0; i < length; i++ {
